@@ -18,6 +18,7 @@ app.get('/', (_req, res) => {
   res.status(statuscode.OK).send('FUNCIONOU!')
 });
 
+// Testando conexão com o Heroku
 // Cadastrar usuários
 app.post('/register', createUser);
 
